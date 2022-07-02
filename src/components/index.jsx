@@ -1,0 +1,12 @@
+// export { default as Gallery } from "./pages/Gallery";
+// export { default as Home } from "./pages/Home";
+// export { default as Master } from "./pages/Master";
+// export { default as Liked } from "./pages/Liked";
+// export { default as Exhibitions } from "./pages/Exhibitions";
+// export { default as Contacts } from "./pages/Contacts";
+// export { default as Cooperation } from "./pages/Cooperation";
+// export { default as AppContext } from "./context";
+// export { default as Logo } from "./components/Logo/Logo";
+// export { default as Header } from "./components/Header/Header";
+// export { default as Drawer } from "./components/Draver/Drawer";
+// export { default as Footer } from "./components/Footer/Footer";

@@ -1,0 +1,36 @@
+.container {
+  // position: relative;
+  max-width: 1140px;
+  margin: auto;
+}
+
+.header {
+  height: 100%;
+  margin: 0;
+  font-family: "EB Garamond", serif;
+  font-weight: 100;
+
+  .menu {
+    background-color: #412750;
+    height: 100%;
+    color: #f3f3f3;
+    font-size: 22px;
+    margin-top: -20px;
+
+    .menu_panel {
+      height: 80px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    li:hover {
+      border-bottom: 1px solid rgb(243, 240, 240);
+    }
+  }
+
+  .active {
+    border-bottom: 1px solid rgb(243, 240, 240);
+    font-size: 28px;
+  }
+}

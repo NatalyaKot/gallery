@@ -1,0 +1,51 @@
+.sorting_list {
+  border-radius: 8px;
+  height: 100%;
+  margin-right: 15px;
+  background-color: rgb(236, 231, 235);
+  padding-top: 5px;
+}
+
+.name {
+  font-size: 26px;
+  font-weight: bold;
+
+  border-radius: 8px;
+  background-color: rgb(121, 79, 145);
+  color: aliceblue;
+  padding: 20px 10px;
+  font-size: 22px;
+}
+
+.list {
+  margin-top: 20px;
+}
+
+.sorting_list {
+  // padding: 20px;
+  cursor: pointer;
+}
+
+.sorting_author {
+  // border: 1px solid rgb(121, 79, 145);
+  // border-radius: 8px;
+  margin-left: 20px;
+
+  li {
+    text-align: center;
+    border: 1px solid rgb(121, 79, 145);
+    border-radius: 8px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    margin-left: 30px;
+
+    &:hover {
+      color: rgb(74, 12, 112);
+      list-style: none;
+    }
+  }
+}
+
+.all {
+  font-size: 18px;
+}

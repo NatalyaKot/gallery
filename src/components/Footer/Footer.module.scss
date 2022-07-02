@@ -1,0 +1,33 @@
+.footer {
+  // position: absolute;
+  height: 100%;
+  margin-top: 60px;
+  background-color: #412750;
+  color: #f3f3f3;
+  font-family: "EB Garamond", serif;
+  font-weight: 100;
+}
+
+.container {
+  max-width: 1140px;
+  margin: auto;
+}
+
+.logo {
+  margin-right: 30px;
+}
+
+.menu_footer_l {
+  margin-right: 20px;
+
+  display: flex;
+  align-items: center;
+  margin-top: -30px;
+}
+
+.menu_text {
+  display: flex;
+  li:not(:last-child) {
+    margin-right: 20px;
+  }
+}

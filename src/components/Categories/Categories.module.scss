@@ -1,0 +1,36 @@
+.categories {
+  //   borders: 1px solid rgb(236, 225, 225);
+  border-radius: 8px;
+  height: 100%;
+  margin-right: 15px;
+  background-color: rgb(236, 231, 235);
+  padding-top: 5px;
+}
+
+.name {
+  font-size: 26px;
+  //   padding-top: 20px;
+  font-weight: bold;
+}
+
+.categories_list {
+  padding: 20px;
+  padding-top: 1px;
+  cursor: pointer;
+
+  li:not(:first-child) {
+    margin-bottom: 10px;
+    margin-top: 10px;
+    margin-left: 30px;
+    list-style: square;
+
+    &:hover {
+      //   border-bottom: 1px solid rgb(121, 79, 145);
+      //   border-radius: 8px;
+      //   background-color: rgb(121, 79, 145);
+      color: rgb(74, 12, 112);
+      //   font-size: 18px;
+      list-style: none;
+    }
+  }
+}

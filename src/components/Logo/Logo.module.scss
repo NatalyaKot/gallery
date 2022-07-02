@@ -1,0 +1,58 @@
+.container {
+  // position: relative;
+  max-width: 1140px;
+  margin: auto;
+}
+
+.logo_left {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  img {
+    margin-right: 10px;
+  }
+}
+
+.cu_p {
+  cursor: pointer;
+}
+
+.logo {
+  display: flex;
+  justify-content: space-between;
+}
+
+.menu_left {
+  h2 {
+    font-family: "EB Garamond", serif;
+    font-weight: 100;
+    letter-spacing: 5px;
+    font-size: 38px;
+  }
+  p {
+    font-family: "EB Garamond", serif;
+    font-weight: 100;
+    letter-spacing: 3px;
+    font-size: 25px;
+  }
+}
+
+.size {
+  height: 50px;
+  width: 50px;
+  cursor: pointer;
+}
+
+.like_heart {
+  filter: invert(55%) contrast(119%);
+}
+
+.menu_right {
+  display: flex;
+  align-items: center;
+
+  li:not(:last-child) {
+    margin-right: 30px;
+  }
+}
